@@ -1,0 +1,29 @@
+.card{
+    height: 400px;
+    width:400px;
+   
+}
+.example-card{
+    border-radius: 25px;
+}
+.weather-data{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.location{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 2rem;
+}
+.temperature{
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+}
